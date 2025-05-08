@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Farmer Space - Marketplace</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./buy.html">Buy Products</a></li>
+                    <li><a href="./index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sell-product">
+        <div class="container">
+            <h2>Sell Your Products</h2>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="Product Name" required>
+                <input type="number" id="product-price" placeholder="Price (per unit)" required>
+                <input type="number" id="product-quantity" placeholder="Quantity" required>
+                <textarea id="product-description" placeholder="Product Description" required></textarea>
+                <button type="submit" class="btn">List Product</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="product-list">
+        <div class="container">
+            <h2>Listed Products</h2>
+            <ul id="products"></ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Assured Contract Farming. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

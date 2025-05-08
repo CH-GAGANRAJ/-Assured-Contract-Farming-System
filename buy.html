@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Farmer Space - Marketplace</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sell.html">Sell Products</a></li>
+                    <li><a href="hire.html">Hire Farmers</a></li>
+                    <li><a href="./index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="product-catalog">
+        <div class="container">
+            <h2>Available Products</h2>
+            <div id="product-list" class="product-grid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="shopping-cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be dynamically inserted here -->
+            </div>
+            <div id="cart-total">
+                <h3>Total: ₹<span id="total-price">0</span></h3>
+                <button id="checkout" class="btn">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Assured Contract Farming. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

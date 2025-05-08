@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+#hero {
+    background: #35424a url('hero.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    height: 400px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#hero .btn {
+    display: inline-block;
+    background: #e8491d;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+#about, #contact {
+    background: #ffffff;
+    padding: 60px 0;
+}
+
+#features {
+    background: #e2e2e2;
+    padding: 60px 0;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+#sell-product {
+    background: #f9f9f9;
+    padding: 20px 0;
+}
+
+#sell-product form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+#sell-product form input, 
+#sell-product form textarea, 
+#sell-product form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#sell-product form button {
+    background: #35424a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#product-list {
+    background: #ffffff;
+    padding: 20px 0;
+}
+
+#product-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#product-list li {
+    background: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#product-list li h3 {
+    margin: 0;
+    padding: 0;
+    color: #35424a;
+}
+
+#product-list li p {
+    margin: 5px 0;
+}
+#hire-farmers {
+    background: #f9f9f9;
+    padding: 20px 0;
+}
+
+#hire-farmers table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#hire-farmers th, #hire-farmers td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#hire-farmers th {
+    background: #35424a;
+    color: #ffffff;
+}
+
+#hire-farmers td {
+    background: #ffffff;
+}
+
+#hire-farmers tr:nth-child(even) td {
+    background: #f2f2f2;
+}
+#product-catalog {
+    background: #f9f9f9;
+    padding: 20px 0;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.product-item h3 {
+    margin-bottom: 10px;
+    color: #35424a;
+}
+
+.product-item p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.product-item button {
+    background: #e8491d;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#shopping-cart {
+    background: #ffffff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+#cart-items {
+    margin-bottom: 20px;
+}
+
+#cart-items div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart-total {
+    text-align: right;
+    padding: 10px;
+}
+
+#cart-total h3 {
+    color: #35424a;
+}
+
+#checkout {
+    background: #35424a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
